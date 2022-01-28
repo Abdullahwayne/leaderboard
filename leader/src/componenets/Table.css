@@ -1,0 +1,59 @@
+.table {
+  color: gray;
+  margin-top: auto;
+  border: radius 40px;
+  border-style: inset;
+  border-width: 10px;
+
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding: 15px;
+  text-align: left;
+}
+
+.name {
+  font-family: "Trirong", serif;
+  font-weight: bold;
+  padding: 15px;
+  text-align: left;
+}
+.location {
+  font-family: "Trirong", serif;
+  padding: 15px;
+  text-align: right;
+}
+.date {
+  align-content: center;
+  padding: 15px;
+  text-align: right;
+}
+/* .button {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: indianred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  color: #4b0082;
+  border-radius: 5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: overline;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.creator {
+  color: #4b0082;
+  border-radius: 5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  padding: 15px;
+}
+.main {
+  overflow-y: auto;
+  overflow-x: auto;
+}
